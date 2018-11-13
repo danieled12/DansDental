@@ -19,7 +19,7 @@
 {
     body
     {
-        width: 0%;
+        width: 0vh;
     }
 }
 
@@ -95,6 +95,7 @@ body {
 	margin: 0px;
 	background-color:#0060a3;
 	font-family: Rockwell;
+  overflow-x:hidden;
 }
 
 .clearboth {
@@ -130,11 +131,11 @@ spacer1 {
 
 nav {
 	background-color:#004080;
-	margin: -504% 0px 0px 0px;
+	margin: -493% 0px 0px 0px;
 	font-variant:small-caps;
 	font-family:sans-serif;
 	font-size: 110%;
-  height: 103.5%;
+  height: 101.2%;
 }
 
 li a {
@@ -192,13 +193,14 @@ banner {
 
 .logo {
 	width:376px;
-	margin: 0px auto;
+  margin-left: 24%;
 	float:left;
 }
 
 .phone {
 	width:300px;
 	margin: 0px auto;
+  margin-right: 24%;
 	background-color:;
 	float:right;
 	text-align:right;
@@ -264,9 +266,9 @@ banner {
 
 
 content {
-	height:100%;
-	width:auto;
-	margin: 0px 700px 0px 35.7%;
+  height: auto;
+  width:100%;
+  margin: 0px auto;
 }
 
 content img {
@@ -277,14 +279,14 @@ content img {
 }
 
 .backgroundofdivaqua {
-	margin: -4px 0px 0px 35.7%;
+	margin: 16px 0px 0px 35.7%;
 	background-color:#8bf0ec;
 	height:90px;
-	width:40%;
+	width:40.25%;
 }
 
 footer {
-	width:;
+	width:100%;
 	padding: 10px 0px 25px 0px;
 	text-decoration:none;
 	text-align:center;
@@ -302,17 +304,32 @@ footer a:hover {
 
 .spacer2 {
 	height:54px;
-  width:39.8%;
-	background-color: white;
+  width:40.2%;
+	background-color: #0191d7;
 	margin: 0px 0px 0px 35.75%;
 }
 
 .spacetext {
 	text-align:center;
 	padding-top:20px;
-	color: #39b54a;
+	color: white;
 	margin: 0px auto;
 	text-decoration:none;
+}
+
+.spacetext a:link {
+	text-decoration:none;
+	color: white;
+}
+
+.spacetext a:visited {
+    color: white;
+		text-decoration: none;
+}
+
+.spacetext a:hover {
+    color: white;
+		text-decoration: none;
 }
 
 .spacetext a {
